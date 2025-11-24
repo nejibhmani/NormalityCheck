@@ -1,13 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "NormalityCheck: Application Shiny pour la vérification de normalité en sciences du sport"
 authors:
   - family-names: "Hmani"
     given-names: "Nejib"
     email: "nejib.hmani@issepsf.u-sfax.tn"
     affiliation: "Institut Supérieur du Sport et de l'Éducation Physique de Sfax"
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # Remplacez si vous avez ORCID
+    orcid: "https://orcid.org/0000-0000-0000-0000" # À remplir si vous avez votre ORCID
 version: 1.0.0
-doi: "10.5281/zenodo.17702375"  # À METTRE À JOUR APRÈS DÉPÔT
-date-released: 2024-12-19
-url: "https://doi.org/10.5281/zenodo.17702375"  # À METTRE À JOUR APRÈS DÉPÔT
+doi: "10.5281/zenodo.17702375" # <--- CORRECTION AVEC VOTRE DOI FINAL
+date-released: 2024-11-24 # Date du dépôt final
+url: "https://doi.org/10.5281/zenodo.17702375" # <--- CORRECTION
 keywords:
   - "normalité"
   - "shiny"
@@ -18,5 +21,4 @@ keywords:
   - "monte-carlo"
   - "validation"
 license: MIT
-
-repository-code: "https://github.com/username/NormalityCheck"  # Optionnel si dépôt GitHub
+repository-code: "https://github.com/nejibhmani/NormalityCheck" # <--- CORRECTION
