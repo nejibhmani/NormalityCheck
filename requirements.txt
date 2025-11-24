@@ -1,0 +1,17 @@
+shiny
+shinyjs
+DT
+tidyverse
+ggplot2
+ggpubr
+psych
+nortest
+moments
+car
+ggforce
+gridExtra
+openxlsx
+MASS
+rmarkdown
+pROC
+microbenchmark
