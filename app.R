@@ -94,14 +94,31 @@ ui <- fluidPage(
     "))
   ),
   
-  # Header principal
-  div(class = "main-header text-center",
-      h1("📊 Vérification de la Normalité", style = "font-weight: 700;"),
-      h4("Tests graphiques et statistiques pour évaluer la distribution normale - STAPS", style = "opacity: 0.9;"),
-      p("📧 Contact : nejib.hmani@issepsf.u-sfax.tn", 
-        style = "margin-top: 10px; font-size: 14px;")
-  ),
-  
+  # Insérez ce bloc DANS votre ui <- fluidPage(...)
+  tags$div(
+    class = "main-header text-center",
+    
+    # 1. EN-TÊTE PRINCIPAL
+    h1("📊 Vérification de la Normalité", style = "font-weight: 700;"),
+    h4("Tests graphiques et statistiques pour évaluer la distribution normale - STAPS", style = "opacity: 0.9;"),
+    
+    # 2. CONTACT
+    p("📧 Contact : nejib.hmani@issepsf.u-sfax.tn", 
+      style = "margin-top: 10px; font-size: 14px;"),
+    
+    # 3. CITATION (Fusionnée)
+    tags$p(
+      tags$strong("Pour citer le code source : "),
+      "Hmani, N. (2025). NormalityCheck (v1.0.1). ",
+      tags$a(
+        href = "https://doi.org/10.5281/zenodo.17702375",
+        target = "_blank",
+        "DOI: 10.5281/zenodo.17702375"
+      ),
+      ".",
+      style = "font-size: 11px; margin-top: 8px; color: #666; font-style: italic;" 
+    )
+  ), 
   # Contenu principal
   div(class = "container-fluid",
       conditionalPanel(
