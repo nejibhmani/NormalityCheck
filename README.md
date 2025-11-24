@@ -5,7 +5,7 @@
 ![Shiny](https://img.shields.io/badge/Shiny-1.8.0-blue.svg)
 ![R](https://img.shields.io/badge/R-4.3.0+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)
+![DOI](https://zenodo.org/badge/1103268852.svg)
 
 **Application complète d'analyse de normalité statistique pour les sciences du sport**
 
